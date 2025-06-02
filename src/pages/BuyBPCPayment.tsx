@@ -80,7 +80,7 @@ const BuyBPCPayment = () => {
       </div>
 
       <div className="flex flex-col items-center p-6 mb-6">
-        <h1 className="text-4xl font-bold mb-2">NGN 6,200</h1>
+        <h1 className="text-4xl font-bold mb-2">NGN 6,800</h1>
         <p className="text-gray-600">BPC Code Purchase</p>
       </div>
 
@@ -100,11 +100,11 @@ const BuyBPCPayment = () => {
         <div className="mb-4">
           <p className="text-gray-500 text-sm">Amount</p>
           <div className="flex justify-between items-center">
-            <p className="text-2xl font-bold">NGN 6200</p>
+            <p className="text-2xl font-bold">NGN 6800</p>
             <Button
               variant="default"
               className="bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
-              onClick={() => handleCopy("6200", "Amount")}
+              onClick={() => handleCopy("6800", "Amount")}
             >
               <Copy size={18} />
               Copy
@@ -115,11 +115,11 @@ const BuyBPCPayment = () => {
         <div className="mb-4 border-t pt-4">
           <p className="text-gray-500 text-sm">Account Number</p>
           <div className="flex justify-between items-center">
-            <p className="text-2xl font-bold">1035319866</p>
+            <p className="text-2xl font-bold">5983587945</p>
             <Button
               variant="default"
               className="bg-blue-600 hover:bg-blue-700 flex items-center gap-2"
-              onClick={() => handleCopy("1035319866", "Account Number")}
+              onClick={() => handleCopy("5983587945", "Account Number")}
             >
               <Copy size={18} />
               Copy
@@ -129,12 +129,12 @@ const BuyBPCPayment = () => {
 
         <div className="mb-4 border-t pt-4">
           <p className="text-gray-500 text-sm">Bank Name</p>
-          <p className="text-2xl font-bold">CARBON</p>
+          <p className="text-2xl font-bold">MONIEPOINT MFB</p>
         </div>
 
         <div className="mb-4 border-t pt-4">
           <p className="text-gray-500 text-sm">Account Name</p>
-          <p className="text-2xl font-bold">SUNDAY CHINEMEREM</p>
+          <p className="text-2xl font-bold">CHIGOZIE DANIEL AMUZIE</p>
         </div>
       </div>
 
