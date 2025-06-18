@@ -7,7 +7,7 @@ const QuickActions = () => {
   const navigate = useNavigate();
   
   const handleWatch = () => {
-    window.open("https://t.me/officialbluepay2025", "_blank");
+    window.open("https://youtu.be/LNoETkiavb0?si=amr99AuevdJQD54w", "_blank");
   };
 
   const quickActions = [
