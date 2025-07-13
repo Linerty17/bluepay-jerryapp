@@ -25,7 +25,7 @@ const EarnMore = () => {
   };
 
   const shareReferralLink = () => {
-    const referralLink = `https://bluepay.app/register?ref=${referralCode}`;
+    const referralLink = `https://bluepay-regitration-reffer.vercel.app/=${referralCode}`;
     if (navigator.share) {
       navigator.share({
         title: 'Join BluePay and Earn!',
