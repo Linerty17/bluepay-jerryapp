@@ -25,11 +25,11 @@ const EarnMore = () => {
   };
 
   const shareReferralLink = () => {
-    const referralLink = `https://bluepay-regitration-reffer.vercel.app/=${referralCode}`;
+    const referralLink = `https://bluepay-regitration-reffer.vercel.app/`;
     if (navigator.share) {
       navigator.share({
         title: 'Join BluePay and Earn!',
-        text: `Use my referral code ${referralCode} and get ₦500 bonus when you join BluePay!`,
+        text: `Use my referral link and get ₦500 bonus when you join BluePay!`,
         url: referralLink,
       });
     } else {
